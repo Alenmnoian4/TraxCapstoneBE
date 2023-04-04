@@ -6,7 +6,7 @@ from traxs.views import TraxViewSet
 # create a new router
 router = routers.DefaultRouter()
 # register our viewsets
-router.register(r'todos', TraxViewSet) #register "/traxs" routes
+router.register(r'traxs', TraxViewSet) #register "/traxs" routes
 
 
 urlpatterns = [
